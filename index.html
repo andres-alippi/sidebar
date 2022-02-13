@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sidebar Tests</title>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="menu">
+        <img id="logo" src="./images/logo.svg" alt="" />
+        <img
+          id="menu-icon"
+          src="./images/menu.svg"
+          alt=""
+          onclick="Bar.toggle()"
+        />
+      </div>
+      <ul>
+        <li id="search">
+          <img src="./images/search.svg" alt="" />
+          <span>Buscar</span>
+        </li>
+        <li>
+          <img src="./images/grid.svg" alt="" />
+          <span>Dashboard</span>
+        </li>
+        <li>
+          <img src="./images/pet.svg" alt="" />
+          <span>Pets</span>
+        </li>
+        <li>
+          <img src="./images/user.svg" alt="" />
+          <span>Clientes</span>
+        </li>
+        <li>
+          <img src="./images/vet.svg" alt="" />
+          <span>Vets</span>
+        </li>
+        <li>
+          <img src="./images/settings.svg" alt="" />
+          <span>Ajustes</span>
+        </li>
+      </ul>
+      <div class="spacer"></div>
+      <div id="logout">
+        <span id="user-info">
+          <img class="user-photo" src="./images/photo.jpg" alt="" />
+          <span class="user-info">
+            <div class="user-name">Elearnor Penna</div>
+            <div class="user-profession">Veterinária</div>
+          </span>
+        </span>
+
+        <img src="./images/log-out.svg" alt="" />
+      </div>
+    </div>
+
+    <h2>Dashboard</h2>
+  </body>
+  <script src="./script.js"></script>
+</html>
