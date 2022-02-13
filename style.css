@@ -100,8 +100,6 @@ ul li span {
 }
 
 .user-photo {
-  /* width: 45px;
-  height: 45px; */
   max-width: 20%;
   height: auto;
   border-radius: 12px;
